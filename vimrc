@@ -20,3 +20,50 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
+
+" Turn search highlighting back off
+map <leader>h :set invhls<CR>
+
+" Hashrocket!
+imap <C-l> <space>=><space>
+
+" Easy window splitting
+nmap <leader>v :vsplit<CR> <C-w><C-w>
+nmap <leader>s :split<CR> <C-w><C-w>
+
+" Easy split window switching
+nmap <leader>w <C-w><C-w>
+
+" Show matching brackets when text indicator is over them for 2/10 of a second
+set showmatch
+set mat=2
+
+" Line numbers
+set number
+set numberwidth=5
+
+" Don't write unnecessary backups
+set nobackup
+set nowritebackup
+
+" Always show the ruler
+set ruler
+
+" Show partial commands in ruler
+set showcmd
+
+" Match search and highlight in real time
+set incsearch
+set hlsearch
+
+" Use spaces instead of tabs
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set smarttab
+
+" Command-T
+map <leader>T :CommandTFlush<CR>
+
+" Ack.vim
+map <leader>F :Ack<space>
