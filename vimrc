@@ -15,4 +15,8 @@ syntax on
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
 
-
+" Disable the arrow keys
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
