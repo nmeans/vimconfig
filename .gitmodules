@@ -10,3 +10,6 @@
 [submodule "bundle/vim-github-theme"]
 	path = bundle/vim-github-theme
 	url = git://github.com/nmeans/vim-github-theme.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
