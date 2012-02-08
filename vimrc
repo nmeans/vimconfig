@@ -1,3 +1,7 @@
+" Load pathogen and run
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
