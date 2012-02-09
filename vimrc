@@ -79,3 +79,7 @@ map <D-7> :tabn 7<CR>
 map <D-8> :tabn 8<CR>
 map <D-9> :tabn 9<CR>
 map <D-0> :tabn 10<CR>
+
+" ERB delimiters
+imap <D->> <%=  %><C-O>2h
+imap <D-<> <%  %><C-O>2h
