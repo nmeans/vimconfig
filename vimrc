@@ -64,6 +64,7 @@ set smarttab
 
 " Command-T
 map <leader>T :CommandTFlush<CR>
+let g:CommandTMatchWindowAtTop=1
 
 " Ack.vim
 map <leader>F :Ack<space>
@@ -83,3 +84,7 @@ map <D-0> :tabn 10<CR>
 " ERB delimiters
 imap <D->> <%=  %><C-O>2h
 imap <D-<> <%  %><C-O>2h
+
+" Enter inserts a newline below the current line.
+nmap <CR> o<ESC>k
+nmap <S-CR> O<ESC>j
