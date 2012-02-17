@@ -63,7 +63,7 @@ set expandtab
 set smarttab
 
 " Command-T
-map <leader>T :CommandTFlush<CR>
+map <leader>T :CommandTFlush<CR>:CommandT<CR>
 let g:CommandTMatchWindowAtTop=1
 
 " Ack.vim
