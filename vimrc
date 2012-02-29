@@ -15,6 +15,9 @@ syntax on
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
 
+" Use the github color scheme
+color github
+
 " Disable the arrow keys
 noremap <Up> <nop>
 noremap <Down> <nop>
@@ -63,6 +66,7 @@ set expandtab
 set smarttab
 
 " Command-T
+map <leader>t :CommandT<CR>
 map <leader>T :CommandTFlush<CR>:CommandT<CR>
 let g:CommandTMatchWindowAtTop=1
 
@@ -88,3 +92,4 @@ imap <D-<> <%  %><C-O>2h
 " Enter inserts a newline below the current line.
 nmap <CR> o<ESC>k
 nmap <S-CR> O<ESC>j
+
