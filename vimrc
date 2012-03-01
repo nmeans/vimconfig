@@ -21,6 +21,20 @@ color github
 " Use the system clipboard
 set clipboard=unnamed
 
+" Shortcuts for buffers
+map <leader><Left> :bprev<CR>
+map <leader><Right> :bnext<CR>
+map <leader>1 :1b<CR>
+map <leader>2 :2b<CR>
+map <leader>3 :3b<CR>
+map <leader>4 :4b<CR>
+map <leader>5 :5b<CR>
+map <leader>6 :6b<CR>
+map <leader>7 :7b<CR>
+map <leader>8 :8b<CR>
+map <leader>9 :9b<CR>
+map <leader>0 :10b<CR>
+
 " Disable the arrow keys
 noremap <Up> <nop>
 noremap <Down> <nop>
@@ -77,16 +91,16 @@ let g:CommandTMatchWindowAtTop=1
 map <leader>F :Ack<space>
 
 " Command-# to matching tab
-map <D-1> :tabn 1<CR>
-map <D-2> :tabn 2<CR>
-map <D-3> :tabn 3<CR>
-map <D-4> :tabn 4<CR>
-map <D-5> :tabn 5<CR>
-map <D-6> :tabn 6<CR>
-map <D-7> :tabn 7<CR>
-map <D-8> :tabn 8<CR>
-map <D-9> :tabn 9<CR>
-map <D-0> :tabn 10<CR>
+"map <D-1> :tabn 1<CR>
+"map <D-2> :tabn 2<CR>
+"map <D-3> :tabn 3<CR>
+"map <D-4> :tabn 4<CR>
+"map <D-5> :tabn 5<CR>
+"map <D-6> :tabn 6<CR>
+"map <D-7> :tabn 7<CR>
+"map <D-8> :tabn 8<CR>
+"map <D-9> :tabn 9<CR>
+"map <D-0> :tabn 10<CR>
 
 " ERB delimiters
 imap <D->> <%=  %><C-O>2h
