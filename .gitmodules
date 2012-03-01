@@ -25,3 +25,6 @@
 [submodule "bundle/github_vim_theme"]
 	path = bundle/github_vim_theme
 	url = git@github.com:nmeans/github_vim_theme.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = https://github.com/corntrace/bufexplorer.git
