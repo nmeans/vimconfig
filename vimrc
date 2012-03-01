@@ -18,6 +18,9 @@ filetype plugin indent on
 " Use the github color scheme
 color github
 
+" Use the system clipboard
+set clipboard=unnamed
+
 " Disable the arrow keys
 noremap <Up> <nop>
 noremap <Down> <nop>
